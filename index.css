@@ -1,0 +1,116 @@
+
+/* search area */
+.navbar-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-group {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+.search-group .form-group .search{
+    border-radius: 0px;
+    height: 100%;
+    border: 2px solid #333333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 420px;
+    padding:8px
+}
+.search-group .search-btn{
+    border-radius: 0px;
+    border: 2px solid #333333;
+    height: 100%;
+}
+
+
+/* content area */
+
+.section {
+    padding: 30px 0;
+}
+
+.section-title{
+    left: 120px;
+    margin-left: 0;
+}
+
+/* content - carousel */
+.carousel-area {
+    margin: 20px auto;
+}
+.carousel-area .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-area .carousel .carousel-item.active {
+    width: 360px;
+    height: 360px;
+    margin: 20px;
+}
+.carousel-area .carousel .carousel-item{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.carousel-area .carousel .carousel-item > .carousel-image{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-area .carousel .carousel-item > .carousel-text{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 120px;
+    background: linear-gradient(0deg, black, transparent)
+}
+.carousel-area .carousel .carousel-item.active > .carousel-text{
+    width: 360px;
+    bottom: 20px;
+}
+
+.carousel-area .carousel .carousel-item > .carousel-text > .carousel-title{
+    font-size: 24px;
+    color: white;
+}
+.carousel-area .carousel .carousel-item > .carousel-text > .carousel-description{
+    /* font-size: 24px; */
+    color: white;
+}
+
+/* content - grid */
+.grid-area {
+    margin: 20px auto;
+}
+.grid-area .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin: 20px 0;
+}
+.grid-area .grid .event-item{}
+.grid-area .grid .event-item .event-image{
+    width: 280px;
+    height: 320px;
+}
+.grid-area .grid .event-item .event-info{
+    padding: 15px 10px;
+}
+.grid-area .grid .event-item .event-info .event-title{
+    font-size: 16px;
+    font-weight: 500;
+}
+.grid-area .grid .event-item .event-info .event-time{}
+.grid-area .grid .event-item .event-info .event-place{}
+.grid-area .grid {}

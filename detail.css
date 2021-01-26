@@ -1,0 +1,86 @@
+.event-title {
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+.divider {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.info-area {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 15px;;
+}
+
+.info-area .event-image {
+    width: 400px;
+    height: 500px;
+}
+
+.info-area .event-info {
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-auto-rows: min-content;
+    width: 300px;
+    /* background-color: #eeeeee; */
+    padding: 20px;
+}
+
+.info-area .info-name {
+    font-weight: 500;
+    height: 40px;
+}
+
+.info-area .select-area {
+    background-color: #f5f5f5;
+    width: 350px;
+    padding: 20px;
+}
+
+.info-area .select-area .select-date{
+    margin-bottom: 40px;
+}
+
+.info-area .select-area .select-time{
+    margin-bottom: 20px;
+}
+.info-area .select-area .select-title {
+    font-weight: 500;
+    height: 40px;
+}
+
+.info-area .select-area .select-item {
+    height: 40px;
+    border-radius: 0px;
+    border: 1px solid #cccccc;
+    padding: 10px 12px;
+    margin: 8px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.info-area .select-area .select-item input {
+    margin-right: 8px;
+    margin-top: 0;
+}
+.info-area .select-area .book-button {
+    background-color: rgb(241, 196, 15);
+    border-radius: 5px;
+    padding: 0 10px;
+    height: 35px;
+    border: none;
+    float: right;
+    color: white;
+}
+
+.detail-area {
+    margin-top: 80px;
+}
+
+.detail-area .detail-info {
+    padding: 20px 0;
+    font-size: 15px;;
+}

@@ -1,0 +1,56 @@
+.login-area {
+    display: flex;
+    width: 540px;
+    height: 680px;
+    flex-direction: column;
+    margin: 80px auto;
+    padding: 40px 60px;
+    border: 1px solid #dddddd;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.login-area > * {
+    margin-bottom: 8px;
+}
+
+.login-area h1 {
+    margin-bottom: 80px;
+    font-weight: 200;
+}
+
+.login-area .signup {
+    color: #999999;
+}
+
+.login-area > .horizontal-line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.login-area > .horizontal-line > hr {
+    width: 180px;
+}
+
+.login-area > input {
+    border-radius: 0;
+    border: 1px #dddddd solid;
+    height: 42px;
+    padding-left: 12px;
+}
+
+.login-area a {
+    width: 100%;
+}
+
+.login-area button {
+    border-radius: 0;
+    border: none;
+    height: 42px;
+    width: 100%;
+    color: #222222;
+}

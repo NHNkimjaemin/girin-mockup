@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #222222;
+}
+
+.content {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* navigation bar */
+.navbar {
+    height: 96px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: white;
+}
+.container-fluid {
+    /* max-width: 1200px; */
+    margin-top: 23px;
+}
+
+.navbar-header > .navbar-brand {
+    font-size: 40px;
+    font-weight: 900;
+    color: #333333;
+    margin-left: 0px !important;
+}
+
+.collapse.navbar-collapse > ul > li > a {
+    font-size: 18px;
+}
+.collapse.navbar-collapse > ul.navbar-right > li > a {
+    font-size: 14px;
+}
+
