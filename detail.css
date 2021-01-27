@@ -61,6 +61,14 @@
     margin-bottom: 40px;
 }
 
+
+.info-area .select-area .select-date .date-list{
+    /* margin-bottom: 40px; */
+    display: flex;
+    justify-content: center;
+}
+
+
 .info-area .select-area .select-time{
     margin-bottom: 20px;
 }
